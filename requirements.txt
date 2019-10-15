@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 flask==1.1.1
 requests==2.21.0
 beautifulsoup4==4.8.1
+=======
+flask==1.1.1
+>>>>>>> 5b41c2fcf08e974e03f7fe8256f422bb385a4c51
