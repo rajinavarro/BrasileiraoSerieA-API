@@ -18,6 +18,9 @@ def home():
 
 @app.route('/all_teams/<string:team>', methods=['GET'])
 def team_per_name(team):
+    for i in all_teams:
+        if team == all_teams[i][team]:          
+            team = team_name
     return jsonify(all_teams[i][team]), 200
 
 if __name__ == '__main__':
